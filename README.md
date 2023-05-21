@@ -8,7 +8,7 @@ Simple Simulation written in pygame to demonstrate Newton's Three Laws of Motion
 # Controls
 For the White Cube, W will apply a force of 20 Newtons forward while E will apply a force of -10 Newtons. 
 For the Red Cube, Up Arrow will apply a force of 20 Newtons forward while Down Arrow will apply a force of -10 Newtons. 
-
+The slider below the "Weight" text controls both of the cubes weight.
 # Run
 The code will automatically install pygame, so there is no need to install it.
 The "convert_to_exe.py" file is for converting the game into an executable using py2exe, if that's what you prefer.
