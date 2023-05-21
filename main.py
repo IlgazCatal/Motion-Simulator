@@ -133,9 +133,9 @@ def handle_collision():
 
     player_collisions = pygame.sprite.collide_rect(player, player2)
     if player_collisions:
-        player.posx -= player.force * 10
+        player.posx -= player.force 
         player.force = 0
-        player2.posx += player2.force * -10
+        player2.posx += player2.force 
         player2.force = 0 
        
 # Game loop.
