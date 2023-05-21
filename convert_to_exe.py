@@ -1,5 +1,10 @@
 from distutils.core import setup
-import py2exe, sys, os, pygame
+import subprocess
+try:
+    import py2exe
+except:
+    subprocess.Popen("python -m pip install py2exe",shell=True)
+import sys, os, pygame
 
 sys.argv.append('py2exe')
 
