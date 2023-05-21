@@ -1,6 +1,7 @@
 # Motion-Simulator
 Simple Simulation written in pygame to demonstrate Newton's Three Laws of Motion.
-**NEWTON'S THREE LAWS OF MOTION:**
+
+# **NEWTON'S THREE LAWS OF MOTION:**
   1. An object will not change its motion unless a force acts on it.
   2. The force of an object is equal to the mass times its acceleration.
   3. When two objects interact, they apply forces of equal magnitude to each other in the opposite direction.
